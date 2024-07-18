@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>customers</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body class="bg-dark-subtle">
+    <div class="container tab" >
+        <div class="container p-4  ">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="item d-flex justify-content-end ">
+        <input type="text" class="form-control w-50 search" placeholder="Customer name or Amount" aria-label="Customer name or Amount">
+        <button scope="col" class="btn btn-info ms-3 text-white ">Filter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+        <table class="table m-4">
+        <thead>
+            <tr>
+              <th scope="col" class="w-25">Id</th>
+              <th scope="col" class="w-25">Customer</th>
+              <th scope="col" class="w-25">Customer-id</th>
+              <th scope="col" class="w-25">Date</th>
+              <th scope="col" class="w-25">Amount</th>
+            </tr>
+          </thead>
+          <tbody id="demo">
+
+
+          </tbody>
+
+
+          </table>
+        
+          <canvas id="myChart"></canvas>
+</div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
